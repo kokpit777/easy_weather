@@ -10,7 +10,7 @@ import org.json.JSONObject;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("enter city(ru/cyrrilyc): ");
+        System.out.print("enter city(ru/eng): ");
         String city = in.nextLine();
 
         String key = "d4d85bd3b56543722d65fac084ef5caf"; //апи ключ с сайта с погодой
